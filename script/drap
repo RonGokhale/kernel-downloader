@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "now we are downloading source"
+wget -c https://github.com/drapalyuk/pecan_kernel/zipball/master
+echo "souce is download"

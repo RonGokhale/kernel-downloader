@@ -1,0 +1,3 @@
+#!/bin/bash
+wget -c https://github.com/kerneldevs/RM-32-kernel-pecan/zipball/cm-gb
+echo "souce is download"

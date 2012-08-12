@@ -1,0 +1,3 @@
+#!/bin/bash
+wget -c https://github.com/pax0r/pecan_kernel/zipball/cm-kernel
+echo "souce is download"

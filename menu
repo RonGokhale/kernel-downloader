@@ -1,0 +1,28 @@
+#!/bin/bash
+export TOPDIR=$(cd $(dirname "$0"); pwd)
+cd $TOPDIR
+export K_VER=0.2.2
+export DOWNLOADER=$TOPDIR/menu
+export INDIR=$TOPDIR/input
+export OUTDIR=$TOPDIR/output
+echo "=============================================================="
+echo "        Welcome to Ron's Kernel Source Downloader             "
+echo "                                                              "
+echo "--------------------------------------------------------------"
+echo ""
+echo
+echo "1.  download source"
+echo
+echo "Q.  Quit download"
+echo
+echo " Enter desired option number and press enter"
+read OPT
+export DO=$TOPDIR/script
+case $OPT in
+	1) $DO/download ;;
+	Q) clear; echo "Goodbye"; read; exit;;
+	q) clear; echo "Goodbye"; read; exit;;
+esac
+
+clear
+$DOWNLOAD

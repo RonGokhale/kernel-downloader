@@ -1,0 +1,42 @@
+#!/bin/bash
+clear
+echo "============================================================="
+echo "          Ron's Kernel ssource  code downloader              "
+echo "                                                             "
+echo "                                                             "
+echo "============================================================="
+echo 
+echo " Please choose which source  code you want to download "
+echo "                                                      "
+echo ""
+echo "1.rm caf"
+echo "2.pax0r pecan"
+echo "3.drap pecan"
+echo "4.roq kernel"
+echo "5.team pecan"
+echo "6.pecancm ics"
+echo
+read OPT
+
+case $OPT in
+	1) clear ;
+	./script/rmcaf ;
+	read ;;
+        2) clear ;
+	./script/pax0r ;
+	read ;;
+        3) clear ;
+	./script/drap ;
+	read ;;
+        4) clear ;
+	./script/roq ;
+	read ;;
+        5) clear ;
+	./script/teampecan ;
+	read ;;
+        6) clear ;
+	./script/pecancm ;
+	read ;;
+esac
+
+

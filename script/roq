@@ -1,0 +1,3 @@
+#!/bin/bash
+wget -c https://github.com/kerneldevs/Kernel-Pecan-2.6.32/zipball/master
+echo "souce is download"
